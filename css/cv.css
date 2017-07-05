@@ -1,0 +1,108 @@
+
+.container-fluid {
+background: url(../img/webdev.jpg);
+
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 50px;
+
+}
+
+.nom {
+  font-size: 60px;
+  color: rgb(27, 32, 41);
+  text-shadow: 1px 2px 3px white;
+
+}
+
+.liens img {
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+ transition: all 0.5s;
+ display: inline-block;
+}
+.icon {
+  display: inline-block;
+  transition: all 0.5s
+}
+
+.icon:hover{
+  transform: scale(1.5,1.5)
+}
+a:hover {
+  tranform: scale (1.5,1.5);
+}
+
+.text-center {
+  font-size: 21px;
+  color: rgb(28, 27, 38);
+  text-shadow: 1px 1px 1px white;
+}
+
+.title{
+  display: flex;
+  justify-content : center;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px 0 100px 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-size: cover;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: rgb(31, 31, 36);
+  border-radius: 10px;
+
+}
+
+a {
+  color: lightgrey;
+}
+
+a:focus,
+a:hover,
+a:visited {
+  color: rgb(92, 94, 102);
+  text-decoration: none;
+}
+
+
+.row {
+  padding: 3px;
+
+}
+.section{
+  background-color: lightgrey;
+  padding: 40px 20px 50px 70px;
+  margin: 5px 0;
+    border-radius: 10px;
+}
+
+h2 {
+  float: left;
+  padding-bottom: 3px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h3 {
+  text-align: center;
+  text-shadow: 0px 3px 4px 0px, rgba(152, 147, 251, 0.05);
+  font-size: 50px;
+  font-family: 'Quicksand', sans-serif;
+}
+.visible {
+  padding: 30px;
+  margin: 30px;
+}
+
+.text {
+  float: left;
+}
