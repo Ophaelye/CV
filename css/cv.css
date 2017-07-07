@@ -1,5 +1,5 @@
 
-.container-fluid {
+body {
   background: url(../img/webdev.jpg);
 
   background-attachment: fixed;
@@ -24,13 +24,13 @@
   transition: all 0.5s;
   display: inline-block;
 }
-.icon {
+
+.icon:hover {
   display: inline-block;
-  transition: all 0.5s
+  transition: all 0.8s;
+  transform: scale(1.5,1.5);
 }
 
-.icon:hover{
-  transform: scale(1.5,1.5)
 }
 a:hover {
   tranform: scale (1.5,1.5);
@@ -57,10 +57,9 @@ nav {
   justify-content: space-around;
   background-size: cover;
   padding: 15px;
-  margin-bottom: 15px;
+  margin: 5px 5px 30px 5px;
   background-color: rgb(31, 31, 36);
   border-radius: 10px;
-
 }
 
 a {
@@ -74,35 +73,152 @@ a:visited {
   text-decoration: none;
 }
 
-
-.row {
-  padding: 3px;
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+  margin: 25px 2px 8px 25px;
+  padding: 3px 3px 3px 8px;
+  border: dotted lightgrey;
+  border-width: 2px;
+  border-radius: 10px;
 
 }
-.section{
-  background-color: lightgrey;
-  padding: 40px 20px 50px 70px;
-  margin: 5px 0;
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 55px;
+  text-align: center;
+  color: rgb(31, 31, 36);
+  text-shadow: 1px 2px 2px lightgrey;
+  padding: 30px;
+}
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+.infos {
+  float: right;
+  margin: 25px 25px 25px 5px;
+  border-width: 2px;
   border-radius: 10px;
+  background-color: rgba(221, 221, 221, 0.56);
+  padding: 5px;
+}
+
+.details p {
+  float: center;
+  text-align: left;
+  font-size: 16px;
+  margin-left: 15px;
+  font-family: 'Pontano Sans', sans-serif;
+}
+.pdf p {
+  float: top-right;
+  font-size: 18px;
+  text-align: justify;
+  margin-top: 10px;
+  margin-left: 25px;
+  font-family: 'Pontano Sans', sans-serif;
+}
+
+p {
+  margin: 5px 5px 25px 30px;
+  text-align: justify;
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 20px;
+  color: rgb(34, 34, 34);
+}
+
+.pdf {
+  border: dotted lightgrey;
+  border-radius: 20px;
+  border-width: 2px;
+  float: right;
+  margin-right: 10px;
+
+}
+.download:hover {
+  color: rgb(238, 163, 49);
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(237, 171, 83);
+
+}
+
+.content {
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.row {
+  padding: 3px;
+}
+
+.section {
+  background-color: rgb(222, 222, 222);
+  padding: 40px 70px 50px 70px;
+
+  border-radius: 10px;
+}
+
+.info {
+  float: bottom-left;
 }
 
 h2 {
   float: left;
   padding-bottom: 3px;
   font-family: 'Quicksand', sans-serif;
+  font-size: 40px;
 }
 
 h3 {
   text-align: center;
   text-shadow: 0px 3px 4px 0px, rgba(152, 147, 251, 0.05);
-  font-size: 50px;
   font-family: 'Quicksand', sans-serif;
+  text-shadow: 0.5px 1px 1px  white;
 }
-.visible {
-  padding: 30px;
-  margin: 30px;
-}
+
+
 
 .text {
   float: left;
 }
+*/
