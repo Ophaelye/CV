@@ -6,7 +6,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 50px;
+  padding-top: 100px;
 
 }
 
@@ -52,14 +52,18 @@ a:hover {
 }
 
 
-nav {
-  display: flex;
+.navbar {
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
   justify-content: space-around;
   background-size: cover;
-  padding: 15px;
-  margin: 5px 5px 30px 5px;
+  padding: 10px;
+  margin: 0px 0px 30px 0px;
   background-color: rgb(31, 31, 36);
-  border-radius: 10px;
+
 }
 
 a {
@@ -148,77 +152,27 @@ p {
 
 .content {
   background-color: white;
+  padding: 10px;
 }
 
 
+.logo {
+  max-width: 70px;
+  max-height: 70px;
+  margin: 15px 10px 15px 20px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.row {
-  padding: 3px;
 }
 
-.section {
-  background-color: rgb(222, 222, 222);
-  padding: 40px 70px 50px 70px;
+.logos {
+  padding: 50px;
 
-  border-radius: 10px;
 }
 
-.info {
-  float: bottom-left;
-}
-
-h2 {
-  float: left;
-  padding-bottom: 3px;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 40px;
-}
-
-h3 {
+.work {
   text-align: center;
-  text-shadow: 0px 3px 4px 0px, rgba(152, 147, 251, 0.05);
-  font-family: 'Quicksand', sans-serif;
-  text-shadow: 0.5px 1px 1px  white;
 }
 
 
-
-.text {
-  float: left;
+.footer{
+  background-color: rgb(31, 31, 36);
 }
-*/
